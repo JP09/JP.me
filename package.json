@@ -1,0 +1,33 @@
+{
+  "name": "jp.me",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^2.0.0-alpha.4",
+    "clsx": "^2.1.0",
+    "kutty": "^0.6.0",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "startbootstrap-grayscale": "^7.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "daisyui": "^4.7.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
