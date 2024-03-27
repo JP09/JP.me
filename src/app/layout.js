@@ -1,8 +1,16 @@
 import "./globals.css";
 
-import { Navbar } from "./navbar";
 import { Footer } from "./footer";
+import Navigation from "./navbar";
 import { About, Hero, Skills } from "./hero";
+import React from "react";
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false
+};
 
 export const metadata = {
   title: "JP.me",
@@ -21,7 +29,7 @@ export default function RootLayout() {
   return (
     <html lang="en">
       <body className="font-sans">
-        <Navbar />
+        <Navigation />
         <Hero />
         <About />
         <Skills />
