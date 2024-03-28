@@ -19,7 +19,7 @@ const Navigation = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between gap-2 pt-6 sm:h-20 sm:flex-row sm:pt-0">
           <div className="flex items-center">
-            <Image src="/android-chrome-512x512.png" width={80} height={80}/>
+            <Image src="/android-chrome-512x512.png" href="/" width={80} height={80}/>
             <Link href="/" passHref className="text-2xl font-semibold duration-150 text-zinc-100 hover:text-white">
               JP.me
             </Link>

@@ -2,8 +2,8 @@ import "./globals.css";
 
 import { Footer } from "./footer";
 import Navigation from "./navbar";
-import { About, Hero, Skills } from "./hero";
 import React from "react";
+import Home from "./home";
 
 export const viewport = {
   width: 'device-width',
@@ -30,9 +30,7 @@ export default function RootLayout() {
     <html lang="en">
       <body className="font-sans">
         <Navigation />
-        <Hero />
-        <About />
-        <Skills />
+        <Home />
         <Footer />
       </body>
     </html>

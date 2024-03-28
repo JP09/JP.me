@@ -8,7 +8,7 @@ export const Footer = () => {
     return (
       <>
         <hr className="mx-40 px-10"/>
-        <div className="footer-container justify-between flex mt-5">
+        <div className="footer-container justify-between flex mt-5" id="footer">
           <p className="ml-60 text-xs">
             © {new Date().getFullYear()} JP.me
           </p>
