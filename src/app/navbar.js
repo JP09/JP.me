@@ -3,7 +3,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 const Navigation = () => {
   const router = useRouter();
 
@@ -11,7 +12,7 @@ const Navigation = () => {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#' },
     { name: 'Solutions', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Contact', href: '#' }
   ]);
 
   return (
@@ -34,6 +35,15 @@ const Navigation = () => {
                   </Link>
                 </li>
               ))}
+            {/* Vertical line separator */}
+              <span className="h-6 border-l border-zinc-400 mx-2"></span>
+              {/* CTA button */}
+            <li>
+              <Link href="#" passHref className="flex items-center px-3 py-2 duration-150 text-sm sm:text-base hover:text-zinc-50 text-zinc-400">
+                Start Project
+                <FontAwesomeIcon icon={faChevronRight} className="size-6"/>
+              </Link>
+            </li>
             </ul>
           </nav>
         </div>
